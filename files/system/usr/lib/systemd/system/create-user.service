@@ -4,7 +4,7 @@ Before=cage@.service
 
 [Service]
 Type=oneshot
-ExecStart=id -u cage >/dev/null 2>&1 || /usr/bin/useradd cage
+ExecStart=/bin/bash -c "/usr/bin/id -u cage >/dev/null 2>&1 || /usr/bin/useradd cage"
 
 [Install]
 WantedBy=default.target
