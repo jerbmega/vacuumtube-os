@@ -1,0 +1,10 @@
+[Unit]
+Description=Create VacuumTube OS display user
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/useradd cage
+
+[Install]
+WantedBy=default.target
