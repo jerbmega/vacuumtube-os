@@ -5,6 +5,7 @@ After=network.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
+Environment=HOME=/root
 ExecStart=/bin/bash /opt/urserver/urserver-start --no-manager --no-copy
 ExecStop=/bin/bash /opt/urserver/urserver-stop
 
