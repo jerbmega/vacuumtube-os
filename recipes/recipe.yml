@@ -23,6 +23,8 @@ modules:
     install:
       - https://www.unifiedremote.com/download/linux-x64-rpm
       - cage
+      - NetworkManager-tui
+      
   - type: default-flatpaks
     notify: false # Send notification after install/uninstall is finished (true/false)
     system:
