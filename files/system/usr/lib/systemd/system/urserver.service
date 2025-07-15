@@ -1,6 +1,6 @@
 [Unit]
 Description=Unified Remote Server
-Before=cage@.service
+After=network.target
 
 [Service]
 Type=oneshot
