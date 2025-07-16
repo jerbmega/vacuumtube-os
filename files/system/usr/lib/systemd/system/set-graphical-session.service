@@ -1,0 +1,10 @@
+[Unit]
+Description=Set Graphical target as default
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/libexec/switch-to-graphical.sh
+
+[Install]
+WantedBy=multi-user.target

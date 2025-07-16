@@ -31,10 +31,9 @@ modules:
         - urserver.service
         - create-user.service
         - cage@tty1.service
+        - set-graphical-session.service
 
   - type: script
-    snippets:
-    - "systemctl set-default graphical.target"
     scripts:
     - fetch-vacuumtube.sh
     
