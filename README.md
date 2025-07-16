@@ -1,13 +1,8 @@
-# VacuumTube OS (NOT FINISHED) &nbsp; [![bluebuild build badge](https://github.com/jerbmega/vacuumtube-os/actions/workflows/build.yml/badge.svg)](https://github.com/jerbmega/vacuumtube-os/actions/workflows/build.yml)
+# VacuumTube OS &nbsp; [![bluebuild build badge](https://github.com/jerbmega/vacuumtube-os/actions/workflows/build.yml/badge.svg)](https://github.com/jerbmega/vacuumtube-os/actions/workflows/build.yml)
 
-This is a custom Fedora image built off of Universal Blue. It is a minimal image whose sole purpose is to boot directly into [VacuumTube](https://github.com/shy1132/VacuumTube), a custom YouTube client providing the YouTube TV interface with adblocking and extra features.
-
-Currently, it is not finished and does not work as advertised.
+This is a custom Fedora image built off of Universal Blue. It is a minimal image whose sole purpose is to boot directly into [VacuumTube](https://github.com/shy1132/VacuumTube), a custom YouTube client providing the YouTube TV interface with adblocking and extra features. To facilitate controlling the UI from a phone, a [Unified Remote](https://www.unifiedremote.com/) server is integrated as well. The remote and server is sadly proprietary and I would love to replace it with a viable open-source alternative.
 
 ## Installation
-
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
 
