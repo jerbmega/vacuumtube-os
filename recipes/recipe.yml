@@ -34,6 +34,8 @@ modules:
         - set-graphical-session.service
 
   - type: script
+    snippets: 
+    - "chmod +x /usr/libexec/switch-to-graphical.sh"
     scripts:
     - fetch-vacuumtube.sh
     
