@@ -19,6 +19,9 @@ After=dbus.socket systemd-logind.service
 # automatically.
 Conflicts=getty@%i.service
 After=getty@%i.service
+# VacuumTube needs a network connection
+Wants=network-online.target
+After=network-online.target
 
 [Service]
 Type=simple
